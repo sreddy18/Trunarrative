@@ -1,18 +1,16 @@
 @run
 Feature: Drive Away Insurance
 
-  Description:As a user of the insurance portal when I enter vehicle registration no in the dealer portal page it should display
+  Description:As a user of the insurance portal when I enter vehicle registration no in the dealer portal it should display
   vehicle cover start and end dates
 
   Background:
     Given I am on the insurance "Dealer Portal" page
 
-
   Scenario: <1> Check for vehicle cover with valid vehicle registration no
     When I enter valid vehicle registration no "OV12UYY"
     And I click on the find vehicle button
     Then the vehicle "Cover start:  09 FEB 2022 : 16 : 26" and "Cover end:    18 FEB 2022 : 23 : 59" dates should be displayed
-
 
   Scenario Outline: <id> Check for vehicle cover with invalid vehicle registration no
     When I enter valid vehicle registration no "<registrationNo>"
