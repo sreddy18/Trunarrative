@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="runners.TestRunner" time="54.548" tests="92" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk8u212-b03/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.212-b03"/>
+    <property name="user.country.format" value="GB"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="AdoptOpenJDK"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/susmitha.vinta/IdeaProjects/InsurancePortal/InsurancePortal"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/susmitha.vinta/IdeaProjects/InsurancePortal/InsurancePortal"/>
+    <property name="java.runtime.version" value="1.8.0_212-b03"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk8u212-b03/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/zc/1hmgd_dj1qjbgyksgswmmkkr0000gp/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/susmitha.vinta/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.14.5"/>
+    <property name="user.home" value="/Users/susmitha.vinta"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="susmitha.vinta"/>
+    <property name="java.class.path" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds-2.5.2.jar:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk8u212-b03/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version2019.1.2 install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="idea.version2019.1.2" value="true"/>
+    <property name="java.version" value="1.8.0_212"/>
+    <property name="java.ext.dirs" value="/Users/susmitha.vinta/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk8u212-b03/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk8u212-b03/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk8u212-b03/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk8u212-b03/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk8u212-b03/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk8u212-b03/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk8u212-b03/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk8u212-b03/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk8u212-b03/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="AdoptOpenJDK"/>
+    <property name="maven.home" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="Given I am on the insurance &quot;Dealer Portal&quot; page" classname="Scenario: &lt;1&gt; Check for vehicle cover with valid vehicle registration no" time="0.001"/>
+  <testcase name="When I enter valid vehicle registration no &quot;OV12UYY&quot;" classname="Scenario: &lt;1&gt; Check for vehicle cover with valid vehicle registration no" time="0"/>
+  <testcase name="And I click on the find vehicle button" classname="Scenario: &lt;1&gt; Check for vehicle cover with valid vehicle registration no" time="0"/>
+  <testcase name="Then the vehicle &quot;Cover start:  09 FEB 2022 : 16 : 26&quot; and &quot;Cover end:    18 FEB 2022 : 23 : 59&quot; dates should be displayed" classname="Scenario: &lt;1&gt; Check for vehicle cover with valid vehicle registration no" time="0"/>
+  <testcase name="Scenario: &lt;1&gt; Check for vehicle cover with valid vehicle registration no" classname="Scenario: &lt;1&gt; Check for vehicle cover with valid vehicle registration no" time="0.084"/>
+  <testcase name="Given I am on the insurance &quot;Dealer Portal&quot; page" classname="| 2 | invalid registration no  - chars | sdsdsdfs | Sorry record not found |" time="0"/>
+  <testcase name="When I enter valid vehicle registration no &quot;sdsdsdfs&quot;" classname="| 2 | invalid registration no  - chars | sdsdsdfs | Sorry record not found |" time="0"/>
+  <testcase name="And I click on the find vehicle button" classname="| 2 | invalid registration no  - chars | sdsdsdfs | Sorry record not found |" time="0"/>
+  <testcase name="Then the valid error message &quot;Sorry record not found&quot; should be displayed" classname="| 2 | invalid registration no  - chars | sdsdsdfs | Sorry record not found |" time="0"/>
+  <testcase name="| 2 | invalid registration no  - chars | sdsdsdfs | Sorry record not found |" classname="| 2 | invalid registration no  - chars | sdsdsdfs | Sorry record not found |" time="0.082"/>
+  <testcase name="Given I am on the insurance &quot;Dealer Portal&quot; page" classname="| 3 | invalid regsitration -nos | 1234 | Sorry record not found |" time="0"/>
+  <testcase name="When I enter valid vehicle registration no &quot;1234&quot;" classname="| 3 | invalid regsitration -nos | 1234 | Sorry record not found |" time="0"/>
+  <testcase name="And I click on the find vehicle button" classname="| 3 | invalid regsitration -nos | 1234 | Sorry record not found |" time="0"/>
+  <testcase name="Then the valid error message &quot;Sorry record not found&quot; should be displayed" classname="| 3 | invalid regsitration -nos | 1234 | Sorry record not found |" time="0"/>
+  <testcase name="| 3 | invalid regsitration -nos | 1234 | Sorry record not found |" classname="| 3 | invalid regsitration -nos | 1234 | Sorry record not found |" time="0.084"/>
+  <testcase name="Given I am on the insurance &quot;Dealer Portal&quot; page" classname="| 4 | invalid registration alpha numeric | as56as | Sorry record not found |" time="0"/>
+  <testcase name="When I enter valid vehicle registration no &quot;as56as&quot;" classname="| 4 | invalid registration alpha numeric | as56as | Sorry record not found |" time="0"/>
+  <testcase name="And I click on the find vehicle button" classname="| 4 | invalid registration alpha numeric | as56as | Sorry record not found |" time="0"/>
+  <testcase name="Then the valid error message &quot;Sorry record not found&quot; should be displayed" classname="| 4 | invalid registration alpha numeric | as56as | Sorry record not found |" time="0"/>
+  <testcase name="| 4 | invalid registration alpha numeric | as56as | Sorry record not found |" classname="| 4 | invalid registration alpha numeric | as56as | Sorry record not found |" time="0.085"/>
+  <testcase name="Given I am on the insurance &quot;Dealer Portal&quot; page" classname="| 5 | blank registration no |  | Please enter a valid car registration |" time="0"/>
+  <testcase name="When I enter valid vehicle registration no &quot;&quot;" classname="| 5 | blank registration no |  | Please enter a valid car registration |" time="0"/>
+  <testcase name="And I click on the find vehicle button" classname="| 5 | blank registration no |  | Please enter a valid car registration |" time="0"/>
+  <testcase name="Then the valid error message &quot;Please enter a valid car registration&quot; should be displayed" classname="| 5 | blank registration no |  | Please enter a valid car registration |" time="0"/>
+  <testcase name="| 5 | blank registration no |  | Please enter a valid car registration |" classname="| 5 | blank registration no |  | Please enter a valid car registration |" time="0.082"/>
+  <testcase name="Given I am on the insurance &quot;Dealer Portal&quot; page" classname="Scenario: &lt;6&gt; Navigate to home page" time="0"/>
+  <testcase name="When I click on the volkswagen financial services link" classname="Scenario: &lt;6&gt; Navigate to home page" time="0"/>
+  <testcase name="Then the &quot;Volkswagen Insurance Portal&quot; page should be displayed" classname="Scenario: &lt;6&gt; Navigate to home page" time="0"/>
+  <testcase name="Scenario: &lt;6&gt; Navigate to home page" classname="Scenario: &lt;6&gt; Navigate to home page" time="0.088"/>
+  <testcase name="Given I am on the insurance &quot;Dealer Portal&quot; page" classname="| 1 | Approved Used Warranty link | Approved Used Warranty | Approved Used Warranty |" time="0"/>
+  <testcase name="When I click on the volkswagen financial services link" classname="| 1 | Approved Used Warranty link | Approved Used Warranty | Approved Used Warranty |" time="0"/>
+  <testcase name="Then the &quot;Volkswagen Insurance Portal&quot; page should be displayed" classname="| 1 | Approved Used Warranty link | Approved Used Warranty | Approved Used Warranty |" time="0"/>
+  <testcase name="Given I am on the &quot;Volkswagen Insurance Portal&quot; page" classname="| 1 | Approved Used Warranty link | Approved Used Warranty | Approved Used Warranty |" time="0"/>
+  <testcase name="When I click on the &quot;Approved Used Warranty&quot; under home" classname="| 1 | Approved Used Warranty link | Approved Used Warranty | Approved Used Warranty |" time="0"/>
+  <testcase name="Then the sub link detail &quot;Approved Used Warranty&quot;  should be displayed" classname="| 1 | Approved Used Warranty link | Approved Used Warranty | Approved Used Warranty |" time="0"/>
+  <testcase name="| 1 | Approved Used Warranty link | Approved Used Warranty | Approved Used Warranty |" classname="| 1 | Approved Used Warranty link | Approved Used Warranty | Approved Used Warranty |" time="0.085"/>
+  <testcase name="Given I am on the insurance &quot;Dealer Portal&quot; page" classname="| 2 | Extended Warranty link | Extended Warranty | Extended Warranty |" time="0"/>
+  <testcase name="When I click on the volkswagen financial services link" classname="| 2 | Extended Warranty link | Extended Warranty | Extended Warranty |" time="0"/>
+  <testcase name="Then the &quot;Volkswagen Insurance Portal&quot; page should be displayed" classname="| 2 | Extended Warranty link | Extended Warranty | Extended Warranty |" time="0"/>
+  <testcase name="Given I am on the &quot;Volkswagen Insurance Portal&quot; page" classname="| 2 | Extended Warranty link | Extended Warranty | Extended Warranty |" time="0"/>
+  <testcase name="When I click on the &quot;Extended Warranty&quot; under home" classname="| 2 | Extended Warranty link | Extended Warranty | Extended Warranty |" time="0"/>
+  <testcase name="Then the sub link detail &quot;Extended Warranty&quot;  should be displayed" classname="| 2 | Extended Warranty link | Extended Warranty | Extended Warranty |" time="0"/>
+  <testcase name="| 2 | Extended Warranty link | Extended Warranty | Extended Warranty |" classname="| 2 | Extended Warranty link | Extended Warranty | Extended Warranty |" time="0.094"/>
+  <testcase name="Given I am on the insurance &quot;Dealer Portal&quot; page" classname="| 3 | Gap Insurance link | Gap Insurance | Gap Insurance |" time="0"/>
+  <testcase name="When I click on the volkswagen financial services link" classname="| 3 | Gap Insurance link | Gap Insurance | Gap Insurance |" time="0"/>
+  <testcase name="Then the &quot;Volkswagen Insurance Portal&quot; page should be displayed" classname="| 3 | Gap Insurance link | Gap Insurance | Gap Insurance |" time="0"/>
+  <testcase name="Given I am on the &quot;Volkswagen Insurance Portal&quot; page" classname="| 3 | Gap Insurance link | Gap Insurance | Gap Insurance |" time="0.001"/>
+  <testcase name="When I click on the &quot;Gap Insurance&quot; under home" classname="| 3 | Gap Insurance link | Gap Insurance | Gap Insurance |" time="0"/>
+  <testcase name="Then the sub link detail &quot;Gap Insurance&quot;  should be displayed" classname="| 3 | Gap Insurance link | Gap Insurance | Gap Insurance |" time="0"/>
+  <testcase name="| 3 | Gap Insurance link | Gap Insurance | Gap Insurance |" classname="| 3 | Gap Insurance link | Gap Insurance | Gap Insurance |" time="0.087"/>
+  <testcase name="Given I am on the insurance &quot;Dealer Portal&quot; page" classname="| 4 | Ensurance | Ensurance | Ensurance |" time="0"/>
+  <testcase name="When I click on the volkswagen financial services link" classname="| 4 | Ensurance | Ensurance | Ensurance |" time="0"/>
+  <testcase name="Then the &quot;Volkswagen Insurance Portal&quot; page should be displayed" classname="| 4 | Ensurance | Ensurance | Ensurance |" time="0"/>
+  <testcase name="Given I am on the &quot;Volkswagen Insurance Portal&quot; page" classname="| 4 | Ensurance | Ensurance | Ensurance |" time="0"/>
+  <testcase name="When I click on the &quot;Ensurance&quot; under home" classname="| 4 | Ensurance | Ensurance | Ensurance |" time="0"/>
+  <testcase name="Then the sub link detail &quot;Ensurance&quot;  should be displayed" classname="| 4 | Ensurance | Ensurance | Ensurance |" time="0"/>
+  <testcase name="| 4 | Ensurance | Ensurance | Ensurance |" classname="| 4 | Ensurance | Ensurance | Ensurance |" time="0.086"/>
+  <testcase name="Given I am on the insurance &quot;Dealer Portal&quot; page" classname="| 5 | Car Insurance | Car Insurance | Car Insurance |" time="0"/>
+  <testcase name="When I click on the volkswagen financial services link" classname="| 5 | Car Insurance | Car Insurance | Car Insurance |" time="0"/>
+  <testcase name="Then the &quot;Volkswagen Insurance Portal&quot; page should be displayed" classname="| 5 | Car Insurance | Car Insurance | Car Insurance |" time="0"/>
+  <testcase name="Given I am on the &quot;Volkswagen Insurance Portal&quot; page" classname="| 5 | Car Insurance | Car Insurance | Car Insurance |" time="0"/>
+  <testcase name="When I click on the &quot;Car Insurance&quot; under home" classname="| 5 | Car Insurance | Car Insurance | Car Insurance |" time="0"/>
+  <testcase name="Then the sub link detail &quot;Car Insurance&quot;  should be displayed" classname="| 5 | Car Insurance | Car Insurance | Car Insurance |" time="0"/>
+  <testcase name="| 5 | Car Insurance | Car Insurance | Car Insurance |" classname="| 5 | Car Insurance | Car Insurance | Car Insurance |" time="0.089"/>
+  <testcase name="Given I am on the insurance &quot;Dealer Portal&quot; page" classname="| 6 | MOT Cover | MOT Cover | MOT Cover |" time="0"/>
+  <testcase name="When I click on the volkswagen financial services link" classname="| 6 | MOT Cover | MOT Cover | MOT Cover |" time="0"/>
+  <testcase name="Then the &quot;Volkswagen Insurance Portal&quot; page should be displayed" classname="| 6 | MOT Cover | MOT Cover | MOT Cover |" time="0"/>
+  <testcase name="Given I am on the &quot;Volkswagen Insurance Portal&quot; page" classname="| 6 | MOT Cover | MOT Cover | MOT Cover |" time="0"/>
+  <testcase name="When I click on the &quot;MOT Cover&quot; under home" classname="| 6 | MOT Cover | MOT Cover | MOT Cover |" time="0"/>
+  <testcase name="Then the sub link detail &quot;MOT Cover&quot;  should be displayed" classname="| 6 | MOT Cover | MOT Cover | MOT Cover |" time="0"/>
+  <testcase name="| 6 | MOT Cover | MOT Cover | MOT Cover |" classname="| 6 | MOT Cover | MOT Cover | MOT Cover |" time="0.086"/>
+  <testcase name="Given I am on the insurance &quot;Dealer Portal&quot; page" classname="| 7 | Home | Home | Welcome |" time="0"/>
+  <testcase name="When I click on the volkswagen financial services link" classname="| 7 | Home | Home | Welcome |" time="0"/>
+  <testcase name="Then the &quot;Volkswagen Insurance Portal&quot; page should be displayed" classname="| 7 | Home | Home | Welcome |" time="0"/>
+  <testcase name="Given I am on the &quot;Volkswagen Insurance Portal&quot; page" classname="| 7 | Home | Home | Welcome |" time="0"/>
+  <testcase name="When I click on the &quot;Home&quot; under home" classname="| 7 | Home | Home | Welcome |" time="0"/>
+  <testcase name="Then the sub link detail &quot;Welcome&quot;  should be displayed" classname="| 7 | Home | Home | Welcome |" time="0"/>
+  <testcase name="| 7 | Home | Home | Welcome |" classname="| 7 | Home | Home | Welcome |" time="0.087"/>
+  <testcase name="Given I am on the insurance &quot;Dealer Portal&quot; page" classname="| 8 | Q3 offers | Q3 offers | Insurance Included Offers - Q3 2018 |" time="0"/>
+  <testcase name="When I click on the volkswagen financial services link" classname="| 8 | Q3 offers | Q3 offers | Insurance Included Offers - Q3 2018 |" time="0"/>
+  <testcase name="Then the &quot;Volkswagen Insurance Portal&quot; page should be displayed" classname="| 8 | Q3 offers | Q3 offers | Insurance Included Offers - Q3 2018 |" time="0"/>
+  <testcase name="Given I am on the &quot;Volkswagen Insurance Portal&quot; page" classname="| 8 | Q3 offers | Q3 offers | Insurance Included Offers - Q3 2018 |" time="0"/>
+  <testcase name="When I click on the &quot;Q3 offers&quot; under home" classname="| 8 | Q3 offers | Q3 offers | Insurance Included Offers - Q3 2018 |" time="0"/>
+  <testcase name="Then the sub link detail &quot;Insurance Included Offers - Q3 2018&quot;  should be displayed" classname="| 8 | Q3 offers | Q3 offers | Insurance Included Offers - Q3 2018 |" time="0"/>
+  <testcase name="| 8 | Q3 offers | Q3 offers | Insurance Included Offers - Q3 2018 |" classname="| 8 | Q3 offers | Q3 offers | Insurance Included Offers - Q3 2018 |" time="0.089"/>
+  <testcase name="Given I am on the insurance &quot;Dealer Portal&quot; page" classname="| 9 | Q2 offers | Q2 offers | SEAT Ibiza |" time="0"/>
+  <testcase name="When I click on the volkswagen financial services link" classname="| 9 | Q2 offers | Q2 offers | SEAT Ibiza |" time="0"/>
+  <testcase name="Then the &quot;Volkswagen Insurance Portal&quot; page should be displayed" classname="| 9 | Q2 offers | Q2 offers | SEAT Ibiza |" time="0"/>
+  <testcase name="Given I am on the &quot;Volkswagen Insurance Portal&quot; page" classname="| 9 | Q2 offers | Q2 offers | SEAT Ibiza |" time="0"/>
+  <testcase name="When I click on the &quot;Q2 offers&quot; under home" classname="| 9 | Q2 offers | Q2 offers | SEAT Ibiza |" time="0"/>
+  <testcase name="Then the sub link detail &quot;SEAT Ibiza&quot;  should be displayed" classname="| 9 | Q2 offers | Q2 offers | SEAT Ibiza |" time="0"/>
+  <testcase name="| 9 | Q2 offers | Q2 offers | SEAT Ibiza |" classname="| 9 | Q2 offers | Q2 offers | SEAT Ibiza |" time="0.087"/>
+</testsuite>
