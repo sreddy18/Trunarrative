@@ -28,7 +28,7 @@ public class GenericSteps {
         assertTrue("Page title is incorrect", BasePage.currentPageTitle(title));
 
     }
-
+/** To navigate to home page from drive away insurance **/
     @When("^I click on the volkswagen financial services link$")
     public void iClickOnTheVolkswagenFinancialServicesLink() {
         driveAwayInsurancePage.navigateToHomePage();

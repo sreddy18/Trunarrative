@@ -1,5 +1,5 @@
 @run
-Feature: Home
+Feature: Volkswagen Home Portal
 
   Description:As a user of the insurance portal when I click the link then the corresponding information shpuld
   be displayed on the home page

@@ -21,18 +21,20 @@ public class HomeSteps {
         homePage = pageObjectManager.getHomePage();
     }
 
-
+/** To validate page title **/
     @Given("^I am on the \"([^\"]*)\" page$")
     public void iAmOnThePage(String title){
         BasePage.currentPageTitle(title);
 
     }
+    /** To display link information from home page **/
 
     @When("^I click on the \"([^\"]*)\" under home$")
     public void iClickOnTheUnderHome(String sublink){
         homePage.getSubLinkInformation(sublink);
 
     }
+
 
     @Then("^the sub link detail \"([^\"]*)\"  should be displayed$")
     public void theSubLinkDetailShouldBeDisplayed(String information) {
