@@ -1,5 +1,5 @@
 @run
-Feature: Drive Away Insurance
+Feature: Drive Away Insurance Portal
 
   Description:As a user of the insurance portal when I enter vehicle registration no in the dealer portal it should display
   vehicle cover start and end dates
