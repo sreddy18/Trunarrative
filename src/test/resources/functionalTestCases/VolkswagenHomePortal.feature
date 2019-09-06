@@ -24,3 +24,8 @@ Feature: Volkswagen Home Portal
       | 7  | Home                        | Home                   | Welcome                             |
       | 8  | Q3 offers                   | Q3 offers              | Insurance Included Offers - Q3 2018 |
       | 9  | Q2 offers                   | Q2 offers              | SEAT Ibiza                          |
+
+Scenario:Search for broken links
+  Given I am on the "Volkswagen Insurance Portal" page
+  When I search for broken link
+  Then the  broken link information should be displayed should be displayed

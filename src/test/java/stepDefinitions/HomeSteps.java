@@ -41,4 +41,15 @@ public class HomeSteps {
 
         Assert.assertEquals("Header text is not matched ",information,homePage.getHeaderText());
     }
+
+    @When("^I search for broken link$")
+    public void iSearchForBrokenLink() {
+
+        homePage.getLinks();
+    }
+
+    @Then("^the  broken link information should be displayed should be displayed$")
+    public void theBrokenLinkInformationShouldBeDisplayedShouldBeDisplayed() {
+     homePage.verifyLinkActive();
+    }
 }

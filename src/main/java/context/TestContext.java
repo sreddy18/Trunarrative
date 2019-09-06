@@ -11,6 +11,6 @@ public class TestContext {
     // Setter
     public void setRegistrationNo(String registrationNo) {
         this.registrationNo = registrationNo;
-        System.out.println("registrationNo"+registrationNo);
+
     }
 }
