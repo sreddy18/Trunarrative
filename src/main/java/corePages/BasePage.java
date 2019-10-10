@@ -18,7 +18,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import managers.FileReaderManager;
-
+import io.github.bonigarcia.wdm.WebDriverManager;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -42,13 +42,15 @@ public class BasePage {
     /**
      * Method to create one instance of browser
      **/
-    public static WebDriver initBrowser(String browser) {
+    public static WebDriver initBrowser(String browser)  {
 
         if (driver == null) {
 
             switch (browser) {
                 case "chrome":
-                    System.setProperty("webdriver.chrome.driver", "/Users/susmitha.vinta/IdeaProjects/java-cucumber-acceptance-test-framework_1/src/main/java/utils/drivers/mac/chromedriver");
+                    //System.setProperty("webdriver.chrome.driver", "/Users/susmitha.vinta/IdeaProjects/java-cucumber-acceptance-test-framework_1/src/main/java/utils/drivers/mac/chromedriver");
+                    WebDriverManager.chromedriver().setup();
+                    WebDriverManager.chromedriver().version("72");
                     driver = new ChromeDriver();
                     break;
                 case "firefox":
@@ -58,7 +60,7 @@ public class BasePage {
                     driver = new InternetExplorerDriver();
                     break;
                 default:
-                    System.out.println("no match");
+                    driver = new ChromeDriver();
             }
 
         }

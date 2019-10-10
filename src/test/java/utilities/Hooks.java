@@ -12,7 +12,7 @@ public class Hooks {
 	    
 	    
 	    @Before(order=1)
-	   public void beforeScenario(){
+	   public void beforeScenario() {
 	    	/*What all you can perform here
 	    	 Starting a webdriver
 	    	 Setting up DB connections

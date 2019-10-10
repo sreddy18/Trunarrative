@@ -80,6 +80,14 @@
           <artifactId>poi</artifactId>
           <version>3.9</version>
       </dependency>
+      <!--dependency to remove set property for driver-->
+      <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+      <dependency>
+          <groupId>io.github.bonigarcia</groupId>
+          <artifactId>webdrivermanager</artifactId>
+          <version>3.3.0</version>
+          <scope>compile</scope>
+      </dependency>
 
 
 

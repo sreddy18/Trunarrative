@@ -14,7 +14,7 @@ public class PageObjectManager {
     }
 
     /**
-     * To check if object exists and return an existing object if exists using single ton
+     * To check if object exists and return an existing object if exists
      **/
 
     public DriveAwayInsurancePage getDriveAwayInsurancePage() {

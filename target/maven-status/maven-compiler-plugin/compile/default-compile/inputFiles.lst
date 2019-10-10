@@ -1,7 +1,7 @@
-/Users/susmitha.vinta/IdeaProjects/DirectLineGroup-1/src/main/java/context/TestContext.java
-/Users/susmitha.vinta/IdeaProjects/DirectLineGroup-1/src/main/java/pages/HomePage.java
-/Users/susmitha.vinta/IdeaProjects/DirectLineGroup-1/src/main/java/managers/PageObjectManager.java
-/Users/susmitha.vinta/IdeaProjects/DirectLineGroup-1/src/main/java/managers/FileReaderManager.java
-/Users/susmitha.vinta/IdeaProjects/DirectLineGroup-1/src/main/java/pages/DriveAwayInsurancePage.java
-/Users/susmitha.vinta/IdeaProjects/DirectLineGroup-1/src/main/java/dataProviders/ConfigFileReader.java
-/Users/susmitha.vinta/IdeaProjects/DirectLineGroup-1/src/main/java/corePages/BasePage.java
+/Users/susmitha.vinta/IdeaProjects/DirectLineGroup/src/main/java/managers/PageObjectManager.java
+/Users/susmitha.vinta/IdeaProjects/DirectLineGroup/src/main/java/pages/HomePage.java
+/Users/susmitha.vinta/IdeaProjects/DirectLineGroup/src/main/java/corePages/BasePage.java
+/Users/susmitha.vinta/IdeaProjects/DirectLineGroup/src/main/java/pages/DriveAwayInsurancePage.java
+/Users/susmitha.vinta/IdeaProjects/DirectLineGroup/src/main/java/dataProviders/ConfigFileReader.java
+/Users/susmitha.vinta/IdeaProjects/DirectLineGroup/src/main/java/managers/FileReaderManager.java
+/Users/susmitha.vinta/IdeaProjects/DirectLineGroup/src/main/java/context/TestContext.java
