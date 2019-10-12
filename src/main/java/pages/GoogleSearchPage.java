@@ -46,7 +46,7 @@ public class GoogleSearchPage extends BasePage {
 
     /** Method to return text of the webelement**/
     public String verifyResult() {
-        return linkText.getText();
+        return waitforElementVisable(linkText);
     }
 
 

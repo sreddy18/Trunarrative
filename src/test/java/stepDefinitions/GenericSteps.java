@@ -11,12 +11,12 @@ import org.junit.Assert;
 import pages.GoogleSearchPage;
 
 
-public class GoogleSearchSteps {
+public class GenericSteps {
 
     GoogleSearchPage googleSearchPage;
     PageObjectManager pageObjectManager;
 
-    public GoogleSearchSteps() {
+    public GenericSteps() {
         pageObjectManager = new PageObjectManager();
         googleSearchPage = pageObjectManager.getGoogleSearchPage();
     }

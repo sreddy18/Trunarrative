@@ -1,6 +1,7 @@
+@run
 Feature: Trunarrative feature
 
-  Description:As a user when i click on trunarrative weblink ,the website strapline should be displayed
+  Description:As a user when i click on https://trunarrative.com ,the website strapline should be displayed
 
   Background:User on google search results page
     Given  I am on the google page

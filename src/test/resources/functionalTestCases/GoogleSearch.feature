@@ -1,7 +1,7 @@
 @run
 Feature: Google Search
 
-  Description:As a user I should be able to google search for trunarrative and it should be my first search result
+  Description:As a user I should be able to google search for trunarrative website and it should be my first search result in the page
 
   Scenario:<1>Google search shows trunarrative as first result
     Given  I am on the google page

@@ -59,12 +59,18 @@ public class TruNarrativePage extends BasePage {
         return logoText.getText();
 
     }
-
+    /**
+     * Method to verify  to display team members page
+     */
     public void getTeamMembersDisplayed()
     {
         waitForElementClick(moreMenu);
         waitForElementClick(teamMainLink);
     }
+    /**
+     * Method to get teammembers  and compare with expected from feature and return
+     * common entries as map
+     */
 
     public Map veriyTeamMembers(Map<String, String> expectedMap) {
         Map<String, String> actualMap = new HashMap<String, String>();
