@@ -1,7 +1,7 @@
-pages/DriveAwayInsurancePage.class
 managers/PageObjectManager.class
-pages/HomePage.class
 context/TestContext.class
+pages/TruNarrativePage.class
 managers/FileReaderManager.class
 corePages/BasePage.class
+pages/GoogleSearchPage.class
 dataProviders/ConfigFileReader.class

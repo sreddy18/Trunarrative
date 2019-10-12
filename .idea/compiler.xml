@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="InsurancePortal" />
+        <module name="Trunarrative" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="InsurancePortal" target="1.8" />
+      <module name="Trunarrative" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

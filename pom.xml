@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>CucumberFramework</groupId>
-  <artifactId>InsurancePortal</artifactId>
+  <artifactId>Trunarrative</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>InsurancePortal</name>
+  <name>Trunarrative</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -87,6 +87,12 @@
           <artifactId>webdrivermanager</artifactId>
           <version>3.3.0</version>
           <scope>compile</scope>
+      </dependency>
+      <dependency>
+          <groupId>org.hamcrest</groupId>
+          <artifactId>hamcrest-library</artifactId>
+          <version>1.3</version>
+          <scope>test</scope>
       </dependency>
 
 
@@ -179,7 +185,7 @@
                       <goal>generate</goal>
                    </goals>
                    <configuration>
-                      <projectName>InsurancePortal</projectName>
+                      <projectName>Trunarrative</projectName>
                        <outputDirectory>${project.build.directory}/cucumber-report-html</outputDirectory>
                        <cucumberOutput>${project.build.directory}/cucumber.json</cucumberOutput>
                       <!--<jsonFiles>

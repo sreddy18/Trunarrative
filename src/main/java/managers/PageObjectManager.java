@@ -1,14 +1,13 @@
 package managers;
 
-import pages.DriveAwayInsurancePage;
-import pages.HomePage;
-
+import pages.GoogleSearchPage;
+import pages.TruNarrativePage;
 
 public class PageObjectManager {
 
-    private DriveAwayInsurancePage driveAwayInsurancePage;
+    private GoogleSearchPage googleSearchPage;
 
-    private HomePage homePage;
+    private TruNarrativePage truNarrativePage;
 
     public PageObjectManager() {
     }
@@ -17,12 +16,12 @@ public class PageObjectManager {
      * To check if object exists and return an existing object if exists
      **/
 
-    public DriveAwayInsurancePage getDriveAwayInsurancePage() {
-
-        return (driveAwayInsurancePage == null) ? driveAwayInsurancePage = new DriveAwayInsurancePage() : driveAwayInsurancePage;
+    public GoogleSearchPage getGoogleSearchPage() {
+        return (googleSearchPage == null) ? googleSearchPage = new GoogleSearchPage() : googleSearchPage;
     }
 
-    public HomePage getHomePage() {
-        return (homePage == null) ? homePage = new HomePage() : homePage;
+    public TruNarrativePage getTruNarrativePage() {
+        return (truNarrativePage == null) ? truNarrativePage = new TruNarrativePage() : truNarrativePage;
     }
+
 }

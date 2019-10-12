@@ -19,6 +19,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import managers.FileReaderManager;
 import io.github.bonigarcia.wdm.WebDriverManager;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -42,7 +43,7 @@ public class BasePage {
     /**
      * Method to create one instance of browser
      **/
-    public static WebDriver initBrowser(String browser)  {
+    public static WebDriver initBrowser(String browser) {
 
         if (driver == null) {
 
@@ -71,8 +72,10 @@ public class BasePage {
      * Method to verify page title
      **/
     public static Boolean currentPageTitle(String pageTitle) {
+
         return (driver.getTitle().equalsIgnoreCase(pageTitle));
     }
+
 
     /**
      * Method that will close down the browser
@@ -91,7 +94,7 @@ public class BasePage {
      * Method to load url of the page
      **/
     public static void getUrl() {
-        //driver.manage().window().maximize();
+        driver.manage().window().maximize();
         driver.get(FileReaderManager.getInstance().getConfigReader().getApplicationUrl());
 
     }
