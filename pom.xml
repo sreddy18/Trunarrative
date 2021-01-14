@@ -78,7 +78,7 @@
       <dependency>
           <groupId>org.apache.poi</groupId>
           <artifactId>poi</artifactId>
-          <version>3.9</version>
+          <version>3.17</version>
       </dependency>
       <!--dependency to remove set property for driver-->
       <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
